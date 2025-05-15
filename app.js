@@ -4,7 +4,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello from Express on Lambda!!!");
+  res.send("Hello from Express on Lambda!");
 });
 
 app.post("/echo", (req, res) => {
